@@ -1,11 +1,11 @@
 ### A Pluto.jl notebook ###
 # v0.14.3
 import Pkg
-	Pkg.activate(mktempdir())
-	Pkg.add("PlutoUI")
-	Pkg.add(url = "https://github.com/sbutron/PhotoMC.jl")
-	using PlutoUI
-	using PhotoMC
+Pkg.activate(mktempdir())
+Pkg.add("PlutoUI")
+Pkg.add(url = "https://github.com/sbutron/PhotoMC.jl")
+using PlutoUI
+using PhotoMC
 using Markdown
 using InteractiveUtils
 
